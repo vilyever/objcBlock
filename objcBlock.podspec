@@ -9,28 +9,28 @@
 
 Pod::Spec.new do |s|
   s.name             = "objcBlock"
-  s.version          = "1.0.1"
-  s.summary          = "sth useful."
+  s.version          = "1.0.2"
+  s.summary          = "objcBlock"
   s.description      = <<-DESC
-                       wait for next time.
+                       objcBlock
                        DESC
   s.homepage         = "https://github.com/vilyever"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+# s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "vilyever" => "vilyever@gmail.com" }
   s.source           = { :git => "https://github.com/vilyever/objcBlock.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/vilyever'
+# s.social_media_url = 'https://twitter.com/vilyever'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'objcBlock/**/*.{h,m}'
-#s.resource_bundles = {
+# s.resource_bundles = {
 #   'objcBlock' => ['objcBlock/**/*.png']
 # }
 
   s.public_header_files = 'objcBlock/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+# s.frameworks = 'UIKit', 'MapKit'
 
-  # s.dependency 'objcTemp'
+# s.dependency 'objcBlock'
 end
