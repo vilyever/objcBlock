@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE6403101D5428DF00652BAC /* objcBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = FE64030F1D5428DF00652BAC /* objcBlock.h */; };
+		FE6403101D5428DF00652BAC /* objcBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = FE64030F1D5428DF00652BAC /* objcBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE6403171D5428DF00652BAC /* objcBlock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE64030C1D5428DF00652BAC /* objcBlock.framework */; };
 		FE64031C1D5428E000652BAC /* objcBlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE64031B1D5428E000652BAC /* objcBlockTests.m */; };
+		FE6403281D5428F300652BAC /* objcBlock.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FE6403261D5428F300652BAC /* objcBlock.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,8 @@
 		FE6403161D5428DF00652BAC /* objcBlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objcBlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE64031B1D5428E000652BAC /* objcBlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcBlockTests.m; sourceTree = "<group>"; };
 		FE64031D1D5428E000652BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6403261D5428F300652BAC /* objcBlock.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objcBlock.podspec; sourceTree = "<group>"; };
+		FE6403271D5428F300652BAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,8 @@
 				FE64030E1D5428DF00652BAC /* objcBlock */,
 				FE64031A1D5428E000652BAC /* objcBlockTests */,
 				FE64030D1D5428DF00652BAC /* Products */,
+				FE6403261D5428F300652BAC /* objcBlock.podspec */,
+				FE6403271D5428F300652BAC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6403281D5428F300652BAC /* objcBlock.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
